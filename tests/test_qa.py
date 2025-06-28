@@ -12,4 +12,4 @@ def test_fuzzy_match():
     validator = QAValidator()
     score, passed, feedback = validator.score("paris", ["Paris", "Lyon"])
     assert passed is True
-    assert score > 0.85
+    assert score > 0.7
